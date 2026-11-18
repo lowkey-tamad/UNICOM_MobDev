@@ -1,3 +1,7 @@
+<div align="center">
+
+<img src="assets/logo/unicom-icon.png" alt="UNICOM logo" width="120" />
+
 # UNICOM
 
 **A campus-only social app for one university's students, employees and organizations.**
@@ -13,24 +17,51 @@ UNICOM works like a social feed that only people from the university can join. S
 
 [Setup guide](docs/SETUP.md) · [Architecture](docs/ARCHITECTURE.md) · [Changelog](docs/CHANGELOG.md) · [Run the app](#run-the-app)
 
+
+</div>
+
 ---
 
 **Table of contents**
 
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Who it serves](#who-it-serves)
-4. [Tech stack](#tech-stack)
-5. [Architecture](#architecture)
-6. [Status](#status)
-7. [Repository contents](#repository-contents)
-8. [Run the app](#run-the-app)
-9. [How we build it](#how-we-build-it)
-10. [Limitations and next steps](#limitations-and-next-steps)
-11. [Disclosures](#disclosures)
-12. [Team](#team)
+1. [The problem](#the-problem)
+2. [The solution](#the-solution)
+3. [Overview](#overview)
+4. [Features](#features)
+5. [Who it serves](#who-it-serves)
+6. [Tech stack](#tech-stack)
+7. [Architecture](#architecture)
+8. [Status](#status)
+9. [Repository contents](#repository-contents)
+10. [Run the app](#run-the-app)
+11. [How I build it](#how-i-build-it)
+12. [Limitations and next steps](#limitations-and-next-steps)
+13. [Disclosures](#disclosures)
+14. [Team](#team)
 
 ---
+
+## The Problem
+
+![The problem: campus news is everywhere, never in one place](assets/slides/problem.png)
+
+Three gaps show up again and again on a campus:
+
+1. **Scattered.** Class suspensions, events and admissions notices live in different group chats and pages.
+2. **Buried.** Requests such as borrowing a calculator or art materials get lost in busy chats.
+3. **Unreachable.** Organizations have no single place to recruit members or reach the right students.
+
+## The Solution
+
+![The solution: one campus, one feed](assets/slides/solution.png)
+
+UNICOM is one app that only the school community can use.
+
+1. **Verify.** Sign up as a Student or an Employee. A 6-digit code sent to your email confirms it is you.
+2. **Post.** Share an announcement, a request or a recruitment call, with an optional photo, and choose who sees it.
+3. **Reach.** Likes, comments, direct messages and notifications arrive live, so the right people see it.
+
+![Every post has an audience: Campus, Social or Organization](assets/slides/audiences.png)
 
 ## Overview
 
@@ -121,6 +152,8 @@ UNICOM/                  The app source (SwiftUI)
   View/                  Screens and components, grouped by feature
   Assets.xcassets/       Images, logos, avatars, app icon
 UNICOM.xcodeproj/        Xcode project
+assets/logo/             UNICOM logo files
+assets/slides/           Problem, solution and audience images for this README
 docs/SETUP.md            How to build and run
 docs/ARCHITECTURE.md     How the app is organized and what Supabase needs
 docs/CHANGELOG.md        What changed and when
