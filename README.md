@@ -139,7 +139,7 @@ open UNICOM.xcodeproj
 
 Wait for Xcode to download the packages, pick an iPhone simulator and press **Run** (Cmd + R). Full steps, using your own Supabase project and fixes for common problems are in [docs/SETUP.md](docs/SETUP.md).
 
-## How we build it
+## How I build it
 
 We follow the **Software Development Life Cycle (SDLC)** one phase at a time, and we fix small problems first. Work arrives as issue lists from testing, and each round is written down in the [changelog](docs/CHANGELOG.md).
 
