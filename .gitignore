@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Xcode: personal, machine-specific files
+xcuserdata/
+*.xcuserstate
+*.xcbkptlist
+DerivedData/
+build/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager build output
+.build/
+.swiftpm/
+
+# Secrets (never commit these)
+.env
+*.env
+Secrets.xcconfig
+GoogleService-Info.plist
